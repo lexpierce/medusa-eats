@@ -15,6 +15,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "medusa-eats.vercel.app",
       },
+      {
+        protocol: "https",
+        hostname: "medusa-eats-siscodisco.onrender.com"
+      },
     ],
   },
 };

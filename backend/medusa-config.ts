@@ -4,7 +4,7 @@ loadEnv(process.env.NODE_ENV || "development", process.cwd());
 
 module.exports = defineConfig({
   admin: {
-    backendUrl: "https://medusa-eats.medusajs.app",
+    backendUrl: process.env.BACKEND_URL || "https://medusa-eats.medusajs.app",
   },
   projectConfig: {
     databaseUrl: process.env.DATABASE_URL,
